@@ -4,3 +4,8 @@
 .nav {
   background-color: rgb(152, 240, 255) !important;
 }
+.page-title {
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
