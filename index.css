@@ -1,3 +1,6 @@
+:root {
+  --py-padding: 0.6rem;
+}
 .body {
   background-color: #cdf7fe;
 }
@@ -5,7 +8,14 @@
   background-color: rgb(152, 240, 255) !important;
 }
 .page-title {
-  color: #2c3e50;
-  text-transform: uppercase;
+  color: #00434f;
   letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
+.section-title-py {
+  padding-top: var(--py-padding);
+  padding-bottom: var(--py-padding);
 }
